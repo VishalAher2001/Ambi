@@ -1,0 +1,6 @@
+{
+  "name": "AMBILUX Architectural Lighting",
+  "description": "Customised architectural lighting solutions by Ambient Works — Commercial, Decorative, Geometrical, Acoustic, and Outdoor lighting systems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

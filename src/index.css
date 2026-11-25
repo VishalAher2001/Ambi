@@ -1,0 +1,239 @@
+@import "tailwindcss";
+
+:root {
+  --brand-charcoal: #555555;
+  --brand-green: #00943e;
+  --brand-blue: #0074ba;
+  --brand-red: #e10020;
+  --brand-yellow: #ffeb00;
+  --brand-grey: #aeb0b1;
+  --brand-white: #ffffff;
+  --ease-editorial: cubic-bezier(0.22, 0.7, 0.2, 1);
+  --gutter: clamp(20px, 5vw, 76px);
+}
+
+@layer base {
+  html {
+    background-color: var(--brand-white);
+    color: var(--brand-charcoal);
+    font-family: 'Inter Tight', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: auto;
+  }
+
+  body {
+    background-color: var(--brand-white);
+    color: var(--brand-charcoal);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Manrope', 'Inter Tight', system-ui, sans-serif;
+    text-wrap: balance;
+  }
+
+  ::selection {
+    background-color: var(--brand-green);
+    color: var(--brand-white);
+  }
+}
+
+.font-display {
+  font-family: 'Manrope', 'Inter Tight', system-ui, sans-serif;
+}
+
+.font-body {
+  font-family: 'Inter Tight', system-ui, -apple-system, sans-serif;
+}
+
+.tabular-code {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Primary Action Button: #00943e background, #FFFFFF text, hover #0074ba */
+.ambilux-cta {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 46px;
+  padding: 0 52px 0 22px;
+  border-radius: 999px;
+  background-color: #00943e;
+  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition:
+    background-color 0.3s var(--ease-editorial),
+    color 0.3s var(--ease-editorial),
+    border-color 0.3s var(--ease-editorial);
+}
+
+.ambilux-cta:hover,
+.ambilux-cta:focus-visible {
+  background-color: #0074ba;
+  color: #ffffff;
+}
+
+/* Secondary Button: #555555 background, #FFFFFF text, hover #00943e */
+.ambilux-cta.ambilux-cta-secondary {
+  background-color: #555555;
+  color: #ffffff;
+}
+
+.ambilux-cta.ambilux-cta-secondary:hover,
+.ambilux-cta.ambilux-cta-secondary:focus-visible {
+  background-color: #00943e;
+  color: #ffffff;
+}
+
+/* Outlined Button: #FFFFFF background, #00943e border & text, hover #00943e bg & #FFFFFF text */
+.ambilux-cta.ambilux-cta-outline {
+  background-color: #ffffff;
+  border: 1px solid #00943e;
+  color: #00943e;
+}
+
+.ambilux-cta.ambilux-cta-outline:hover,
+.ambilux-cta.ambilux-cta-outline:focus-visible {
+  background-color: #00943e;
+  border-color: #00943e;
+  color: #ffffff;
+}
+
+.ambilux-cta.ambilux-cta-lg {
+  height: 58px;
+  padding: 0 64px 0 28px;
+  font-size: 16px;
+}
+
+.ambilux-cta .cta-dot {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  border-radius: 999px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    width 0.45s var(--ease-editorial),
+    height 0.45s var(--ease-editorial),
+    margin-top 0.45s var(--ease-editorial),
+    right 0.45s var(--ease-editorial),
+    background-color 0.3s var(--ease-editorial),
+    box-shadow 0.35s var(--ease-editorial);
+}
+
+.ambilux-cta.ambilux-cta-outline .cta-dot {
+  background-color: #00943e;
+  box-shadow: none;
+}
+
+.ambilux-cta.ambilux-cta-outline:hover .cta-dot,
+.ambilux-cta.ambilux-cta-outline:focus-visible .cta-dot {
+  background-color: #ffffff;
+}
+
+.ambilux-cta.ambilux-cta-lg .cta-dot {
+  right: 22px;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+}
+
+.ambilux-cta .cta-chevron {
+  width: 13px;
+  height: 13px;
+  opacity: 0;
+  transform: translateX(-4px);
+  color: #00943e;
+  transition:
+    opacity 0.3s var(--ease-editorial) 0.05s,
+    transform 0.35s var(--ease-editorial) 0.05s,
+    color 0.3s var(--ease-editorial);
+}
+
+.ambilux-cta:hover .cta-chevron,
+.ambilux-cta:focus-visible .cta-chevron {
+  opacity: 1;
+  transform: translateX(0);
+  color: #0074ba;
+}
+
+.ambilux-cta.ambilux-cta-secondary:hover .cta-chevron,
+.ambilux-cta.ambilux-cta-secondary:focus-visible .cta-chevron,
+.ambilux-cta.ambilux-cta-outline:hover .cta-chevron,
+.ambilux-cta.ambilux-cta-outline:focus-visible .cta-chevron {
+  color: #00943e;
+}
+
+.ambilux-cta.ambilux-cta-lg .cta-chevron {
+  width: 15px;
+  height: 15px;
+}
+
+.ambilux-cta:hover .cta-dot,
+.ambilux-cta:focus-visible .cta-dot {
+  width: 34px;
+  height: 34px;
+  margin-top: -17px;
+  right: 6px;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+}
+
+.ambilux-cta.ambilux-cta-lg:hover .cta-dot,
+.ambilux-cta.ambilux-cta-lg:focus-visible .cta-dot {
+  width: 44px;
+  height: 44px;
+  margin-top: -22px;
+  right: 7px;
+}
+
+/* Editorial link underline hover */
+.editorial-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.editorial-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.35s var(--ease-editorial);
+}
+
+.editorial-link:hover::after,
+.editorial-link:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambilux-cta .cta-dot,
+  .ambilux-cta .cta-chevron,
+  .editorial-link::after {
+    transition: none !important;
+  }
+}

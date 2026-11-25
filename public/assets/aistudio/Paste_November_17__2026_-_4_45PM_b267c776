@@ -1,0 +1,1114 @@
+# MASTER PROMPT: BUILD A COMPLETELY NEW PREMIUM AMBILUX WEBSITE
+
+## PROJECT OVERVIEW
+
+Create a completely new, premium, visually impressive, multi-page website for **AMBILUX**, a professional architectural lighting company.
+
+Build the website entirely from scratch using React, Vite, TypeScript, and modern frontend technologies.
+
+The final website must look and feel like an internationally recognised architectural lighting brand website, with sophisticated art direction, cinematic photography, editorial typography, immersive scrolling experiences, and advanced motion design.
+
+**IMPORTANT: This is a completely new website project.**
+
+Do not use the existing AMBILUX website as a starting point, reference, template, or source code.
+
+Do not redesign, copy, modify, or recreate the existing website.
+
+Create a completely fresh visual identity, original page layouts, new section compositions, and a premium user experience.
+
+The supplied AMBILUX logo and company catalogue are the factual sources of truth for the company, products, services, projects, and clients.
+
+---
+
+# 1. DESIGN REFERENCES AND CREATIVE DIRECTION
+
+Use the following websites exclusively as references for design quality, visual storytelling, and animation techniques.
+
+### Reference 1: Melli
+
+https://melli.studio/
+
+Study its design approach:
+
+- Editorial typography.
+- Cinematic full-screen imagery.
+- Immersive hero sections.
+- Large typography and generous whitespace.
+- Asymmetrical section compositions.
+- Beautiful visual storytelling.
+- Sophisticated image placement.
+- Minimal and premium interface design.
+
+### Reference 2: Glaze
+
+Use Glaze as a reference for advanced interaction and motion design.
+
+Study its approach:
+
+- Advanced scroll-triggered animations.
+- Smooth transitions.
+- Staggered typography reveals.
+- Image movement and parallax.
+- Interactive hover effects.
+- Cinematic scrolling experiences.
+- Sophisticated section transitions.
+
+### Reference 3: Halden Animation Specification
+
+Use the attached Halden animation reference document as an additional technical and creative reference.
+
+Study and adapt its:
+
+- Character-by-character heading animations.
+- Scroll-driven letter reveals.
+- Canvas-based background illumination.
+- Pinned scrolling sections.
+- Progressive colour transitions.
+- Expanding CTA button interactions.
+- Cinematic image scaling.
+- Scroll-controlled animation progress.
+
+Do not copy Halden's branding, content, SaaS design, colour palette, layouts, or maritime imagery.
+
+Translate the animation techniques into AMBILUX's architectural lighting identity.
+
+**Creative objective:** The website should look like a carefully art-directed international architectural lighting studio, not a generic AI-generated template.
+
+---
+
+# 2. BRAND IDENTITY AND COLOUR SYSTEM
+
+Use the supplied AMBILUX logo as the primary brand identity reference.
+
+Suggested brand palette:
+
+- Charcoal Grey: #555555
+- Deep Charcoal: #333333
+- Deep Black: #171717
+- White: #FFFFFF
+- Warm White: #F7F6F2
+- Yellow: #F5A623
+- Red: #E52B38
+- Blue: #1685C7
+- Green: #159447
+
+### Colour usage
+
+- White and warm-white should dominate the website.
+- Use charcoal and deep black for typography.
+- Use the logo's accent colours selectively.
+- Use dark backgrounds for selected cinematic sections.
+- Use warm lighting tones in photographic sections.
+- Maintain a consistent brand identity across all pages.
+
+Avoid:
+
+- Purple and lavender.
+- Pink gradients.
+- Unrelated colours.
+- Excessive gradients.
+- Unnecessary glassmorphism.
+- Excessive coloured backgrounds.
+- Random accent colours.
+
+The website should feel refined, minimal, architectural, and timeless.
+
+---
+
+# 3. TYPOGRAPHY AND DESIGN SYSTEM
+
+Use premium editorial typography.
+
+Suggested fonts:
+
+- Headings: Manrope, Inter Tight, or a similar premium modern sans-serif.
+- Body: Inter or a similar highly readable sans-serif.
+
+Use a consistent typographic system throughout the website.
+
+### Typography requirements
+
+- Large and confident hero headings.
+- Strong heading hierarchy.
+- Natural sentence-style headings.
+- Carefully controlled line lengths.
+- Consistent font weights.
+- Balanced letter spacing.
+- Comfortable paragraph readability.
+- Responsive font sizing using clamp().
+
+Avoid:
+
+- Italic words inside headings.
+- Random uppercase/lowercase combinations.
+- Split headings with unnecessary font variations.
+- Decorative text everywhere.
+- Eyebrow text above every heading.
+- Excessive bold text.
+- Unnecessary span-based visual styling.
+
+Headings should feel confident, editorial, and professionally designed.
+
+---
+
+# 4. WEBSITE ARCHITECTURE AND PAGES
+
+Create the following pages with fully functional navigation and routing.
+
+1. Home
+2. About Us
+3. Services
+4. Products
+5. Projects
+6. Individual Project Detail Pages
+7. Clients
+8. Contact
+
+### Routing requirements
+
+Use React Router.
+
+Suggested routes:
+
+- /
+- /about
+- /services
+- /products
+- /projects
+- /projects/:slug
+- /clients
+- /contact
+
+Important:
+
+- Every route must work correctly.
+- All pages must be responsive.
+- Browser refresh must work on nested routes.
+- Navigation must work without broken links.
+- Use reusable components.
+- Maintain a clean and organised project structure.
+
+Do not create product detail routes.
+
+---
+
+# 5. HOMEPAGE DESIGN
+
+Create an impressive cinematic homepage that immediately communicates AMBILUX's architectural lighting expertise.
+
+The homepage should be visually rich without feeling crowded.
+
+### Section 1: Cinematic Hero
+
+Create a premium full-screen hero.
+
+Requirements:
+
+- Full-width architectural lighting photography.
+- Strong, large headline.
+- Short supporting introduction.
+- Elegant CTA.
+- Minimal navigation.
+- Sophisticated text reveal animation.
+- Subtle image movement.
+- Premium visual composition.
+
+Use actual architectural lighting photography.
+
+The hero should feel immersive and visually impressive.
+
+Do not use a generic split-screen SaaS hero.
+
+### Section 2: Company Introduction
+
+Introduce AMBILUX through a beautiful editorial layout.
+
+Include:
+
+- Company introduction based on the supplied catalogue.
+- Relevant architectural photography.
+- Large typography.
+- Generous whitespace.
+- Subtle scroll-triggered animation.
+
+Use original content based on the company documents.
+
+Do not invent company history or achievements.
+
+### Section 3: Services Overview
+
+Showcase the company's services using an original visual composition.
+
+Requirements:
+
+- Clear service titles.
+- Short descriptions based on the catalogue.
+- Relevant photography.
+- Asymmetrical layouts.
+- Interactive image treatments.
+- Subtle hover animations.
+
+Avoid repeating the same three-card layout.
+
+### Section 4: Product Categories
+
+Introduce the five main product categories:
+
+- Commercial Lights
+- Decorative Lights
+- Geometrical Lights
+- Acoustic Lights
+- Outdoor Lights
+
+Use large images and editorial layouts.
+
+Include a clear link to the Products page.
+
+### Section 5: Featured Projects
+
+Create an immersive editorial project showcase.
+
+Requirements:
+
+- Large architectural photographs.
+- Different image proportions.
+- Project names only when verified in the catalogue.
+- Premium typography.
+- Subtle image scaling.
+- Smooth hover transitions.
+- Links to individual project pages.
+
+Do not invent project names, clients, locations, or project achievements.
+
+### Section 6: Clients
+
+Display actual client logos from the supplied catalogue.
+
+Requirements:
+
+- Clean logo presentation.
+- Consistent visual spacing.
+- Responsive grid.
+- Subtle reveal animations.
+- No fabricated logos.
+
+### Section 7: Contact CTA
+
+Create a visually strong final enquiry section.
+
+Include:
+
+- A compelling contact heading.
+- Short supporting text.
+- Contact CTA.
+- Premium background imagery or a clean warm-white composition.
+
+---
+
+# 6. ABOUT US PAGE
+
+Create a premium editorial About Us page.
+
+Include:
+
+- Company introduction.
+- Company philosophy.
+- Architectural lighting approach.
+- Company capabilities.
+- Services and expertise.
+- Relevant company photography.
+- Contact CTA.
+
+Use the supplied company catalogue as the factual source.
+
+Design direction:
+
+- Large editorial headings.
+- Full-width imagery.
+- Asymmetrical content layouts.
+- Generous whitespace.
+- Scroll-based storytelling.
+- Cinematic image reveals.
+
+Do not invent company statistics, awards, certifications, or achievements.
+
+---
+
+# 7. SERVICES PAGE
+
+Create a dedicated Services page.
+
+Use only services supported by the supplied AMBILUX catalogue.
+
+Present services through a combination of:
+
+- Large photographic sections.
+- Editorial text blocks.
+- Asymmetrical image layouts.
+- Full-width visual compositions.
+- Subtle interactive elements.
+- Smooth scroll transitions.
+
+Avoid generic icon-based service cards.
+
+Each service should have a clear title, relevant description, and supporting visual.
+
+Do not invent additional services.
+
+---
+
+# 8. PRODUCTS PAGE – IMPORTANT REQUIREMENTS
+
+Create a premium architectural lighting catalogue experience.
+
+All products must appear on ONE Products page.
+
+### Product categories
+
+1. Commercial Lights
+2. Decorative Lights
+3. Geometrical Lights
+4. Acoustic Lights
+5. Outdoor Lights
+
+### Product filtering
+
+Create functional category filtering without navigating to another page.
+
+Requirements:
+
+- All Products.
+- Commercial Lights.
+- Decorative Lights.
+- Geometrical Lights.
+- Acoustic Lights.
+- Outdoor Lights.
+
+When a category is selected, display only the products belonging to that category.
+
+The filtering must work smoothly without reloading the page.
+
+### Product display
+
+For every product, display ONLY:
+
+- Product image.
+- Product name, if available in the catalogue.
+- Product code.
+
+### Strict restrictions
+
+Do not create:
+
+- Product detail pages.
+- Individual product routes.
+- View Details buttons.
+- Read More buttons.
+- Prices.
+- Shopping carts.
+- Checkout.
+- Buy Now buttons.
+- Purchase functionality.
+- Technical specification tables.
+
+Do not display:
+
+- Wattage.
+- Dimensions.
+- CRI.
+- IP rating.
+- Beam angle.
+- Other technical specifications.
+
+Do not create additional product information that is not requested.
+
+### Product catalogue design
+
+The Products page should feel like a premium printed architectural lighting catalogue translated into a modern website.
+
+Use:
+
+- Large, consistent product images.
+- Clean product presentation.
+- Beautiful whitespace.
+- Premium grid compositions.
+- Carefully controlled image proportions.
+- Consistent image backgrounds.
+- Elegant category navigation.
+- Smooth filtering transitions.
+
+Avoid making every product look like a generic ecommerce card.
+
+### Product data accuracy
+
+Use the supplied AMBILUX catalogue PDF as the source of truth.
+
+Extract:
+
+- Product categories.
+- Product names.
+- Product codes.
+- Product images.
+
+Every product must be placed in the correct category.
+
+Do not invent product names or product codes.
+
+Do not omit products that are present in the supplied catalogue.
+
+If product information is unclear, preserve the available information rather than guessing.
+
+---
+
+# 9. PROJECTS PAGE
+
+Create a visually rich and premium architectural project portfolio.
+
+This page should be image-led.
+
+### Layout
+
+Use:
+
+- Asymmetrical editorial grid.
+- Different image proportions.
+- Large landscape photography.
+- Portrait compositions.
+- Full-width featured projects.
+- Beautiful spacing.
+- Large project titles.
+
+### Project information
+
+Use actual project information from the supplied company catalogue.
+
+Display only verified information.
+
+Do not invent:
+
+- Project names.
+- Client names.
+- Locations.
+- Project descriptions.
+- Project achievements.
+- Project statistics.
+
+### Project detail pages
+
+Create individual project detail pages for verified projects.
+
+Each detail page can include:
+
+- Project hero image.
+- Project name.
+- Verified project information.
+- Supporting project photographs.
+- Editorial content layout.
+- Previous/next project navigation.
+- Contact CTA.
+
+Only create detail pages for projects with actual supporting information.
+
+---
+
+# 10. CLIENTS PAGE
+
+Create a dedicated Clients page.
+
+Requirements:
+
+- Use genuine client names.
+- Use actual client logos from the catalogue wherever available.
+- Create a premium logo presentation.
+- Use a clean editorial layout.
+- Maintain consistent logo spacing.
+- Add subtle reveal animations.
+
+Do not fabricate client logos, partnerships, or testimonials.
+
+---
+
+# 11. CONTACT PAGE
+
+Create a professional Contact page.
+
+Use the following verified company information:
+
+Phone: +91 9819 55 29 29
+
+Email: sales@ambilux.in
+
+Address:
+
+Ambient Works, Unit No.-28, Ground Floor, New Sonal Industrial Estate, New Link Rd, Malad (W), Mumbai-400064, Maharashtra, India.
+
+Website: www.ambilux.in
+
+### Contact page layout
+
+Include:
+
+- Large contact heading.
+- Short introduction.
+- Contact information.
+- Professional enquiry form.
+- Address section.
+- Map or location link.
+- Responsive layout.
+
+### Enquiry form
+
+Fields:
+
+- Full Name.
+- Company Name.
+- Email Address.
+- Phone Number.
+- Subject.
+- Message.
+
+Requirements:
+
+- Proper form validation.
+- Required-field validation.
+- Email validation.
+- Loading state.
+- Success message.
+- Error message.
+- Accessible input labels.
+- Responsive form layout.
+
+The form must actually work.
+
+Use a suitable backend or email integration.
+
+Do not create a fake form that only displays a success message without submitting the enquiry.
+
+Keep email credentials and API keys in environment variables.
+
+Do not expose private credentials in frontend code.
+
+---
+
+# 12. ADVANCED ANIMATION SYSTEM
+
+This is one of the most important parts of the project.
+
+Use the attached Halden reference specification as the primary reference for sophisticated animation techniques.
+
+Use:
+
+- GSAP.
+- GSAP ScrollTrigger.
+- Lenis.
+- CSS animations.
+- Canvas only where genuinely beneficial.
+
+Do not add unnecessary animation libraries.
+
+Animations should feel cinematic, controlled, and intentional.
+
+## A. Character-by-character heading reveal
+
+Create advanced heading animations.
+
+Animation sequence:
+
+1. Split important heading text into individual characters.
+2. Characters begin with low opacity.
+3. Apply subtle blur.
+4. Gradually reveal characters.
+5. Reduce blur as characters become visible.
+6. Move characters slightly upward.
+7. Transition to their final text colour.
+
+Use staggered timing.
+
+Use this for:
+
+- Homepage hero heading.
+- Major homepage section headings.
+- About Us statements.
+- Services introduction.
+- Featured project headings.
+- Final CTA heading.
+
+Do not animate every small heading or paragraph.
+
+The result should look polished and editorial.
+
+## B. Scroll-driven background illumination
+
+Create an original lighting-inspired background effect based on the Halden bowl-glow technique.
+
+Adapt it to AMBILUX.
+
+The animation should:
+
+- Begin with a warm-white background.
+- Introduce a subtle glow.
+- Expand the illuminated region during scrolling.
+- Create smooth transitions between light and dark sections.
+- Use warm-white illumination and subtle brand accents.
+- Maintain a premium architectural atmosphere.
+
+Implementation options:
+
+- Canvas rendering.
+- CSS radial gradients.
+- Scroll-controlled background properties.
+
+Choose the most performant solution.
+
+Do not copy the exact cyan bowl colour or Halden appearance.
+
+## C. Scroll-triggered letter reveals
+
+Use GSAP ScrollTrigger to connect typography animation progress to scroll position.
+
+Characters should move through:
+
+- Invisible.
+- Softly blurred.
+- Partially visible.
+- Fully sharp.
+
+Allow completed characters to remain visible.
+
+Use appropriate animation ranges and scrub values.
+
+Avoid sudden jumps or flickering.
+
+## D. Cinematic image reveal
+
+Use premium image reveal animations.
+
+Include:
+
+- Clip-path reveal.
+- Mask-based image reveal.
+- Slow image scaling.
+- Upward image movement.
+- Subtle parallax.
+- Scroll-controlled image transitions.
+
+Suggested scale:
+
+- Initial image scale: 1.08.
+- Final image scale: 1.0.
+
+Vary reveal directions to avoid repetitive animations.
+
+## E. Pinned scrolling sections
+
+Use selected pinned sections to create immersive experiences.
+
+Possible sections:
+
+- Brand introduction.
+- Architectural lighting philosophy.
+- Featured projects.
+- Product category storytelling.
+
+While the section is pinned:
+
+- Reveal text progressively.
+- Transition images.
+- Animate background illumination.
+- Control movement with scroll progress.
+
+Do not overuse pinned sections.
+
+## F. CTA button interaction
+
+Create a consistent premium CTA interaction.
+
+Default state:
+
+- Dark charcoal background.
+- White text.
+- Small glowing accent dot.
+
+Hover state:
+
+- Accent dot expands into a circular element.
+- A directional arrow appears.
+- The circle moves smoothly into position.
+- The button maintains its original shape and readability.
+
+Use a transition similar in quality to the Halden reference.
+
+Apply consistently to primary CTA buttons.
+
+## G. Navigation animation
+
+Create an elegant floating or fixed navigation bar.
+
+Requirements:
+
+- Smooth entrance.
+- Premium spacing.
+- Clean typography.
+- Subtle shadow.
+- Smooth background changes.
+- Active route indication.
+- Responsive mobile menu.
+
+The navbar should adapt to light and dark backgrounds.
+
+On mobile, create a full-screen or elegant drawer navigation with staggered link animations.
+
+## H. Hover interactions
+
+Include subtle premium interactions for:
+
+- Project images.
+- Product images.
+- Navigation links.
+- CTA buttons.
+- Service sections.
+- Client logos.
+
+Avoid excessive cursor-following effects.
+
+All interactions should remain usable on touch devices.
+
+## I. Motion quality
+
+The entire animation system must feel consistent.
+
+Use:
+
+- Smooth easing.
+- Controlled timing.
+- Subtle movement.
+- Natural transitions.
+- Carefully designed stagger values.
+- Scroll-linked progress.
+
+Do not use excessive bouncing, spinning, or random animations.
+
+---
+
+# 13. IMAGE AND ASSET REQUIREMENTS
+
+Visual quality is critical.
+
+Use actual AMBILUX catalogue images wherever available.
+
+### Architectural photography
+
+For supporting imagery, use high-quality architectural and interior lighting photography.
+
+Suitable subjects include:
+
+- Premium commercial interiors.
+- Architectural ceiling lighting.
+- Modern office illumination.
+- Luxury hospitality interiors.
+- Decorative lighting installations.
+- Contemporary residential spaces.
+- Outdoor architectural lighting.
+- Linear lighting systems.
+- Geometric lighting installations.
+- Acoustic lighting environments.
+
+### Image quality requirements
+
+- Professional architectural photography.
+- Natural lighting.
+- Realistic architecture.
+- Correct proportions.
+- High resolution.
+- Beautiful compositions.
+- Consistent image treatment.
+
+### Strict image restrictions
+
+Avoid:
+
+- AI-looking images.
+- Repeated photographs.
+- Distorted architecture.
+- Unrelated stock photography.
+- Fake client logos.
+- Text embedded inside images.
+- Watermarked images.
+- Incorrect product imagery.
+- Random decorative illustrations.
+
+Do not use the same hero image repeatedly across different sections.
+
+Do not substitute actual catalogue product images with unrelated stock images.
+
+### Asset organisation
+
+Keep assets organised.
+
+Suggested structure:
+
+- assets/logo
+- assets/products
+- assets/projects
+- assets/clients
+- assets/services
+- assets/general
+
+Use descriptive filenames.
+
+Optimise large images.
+
+Prefer WebP or AVIF for photographic assets when suitable.
+
+Use lazy loading for below-the-fold imagery.
+
+Set image dimensions or aspect ratios to avoid layout shifts.
+
+---
+
+# 14. RESPONSIVE DESIGN
+
+The website must be fully responsive.
+
+Test at:
+
+- Large desktop.
+- Standard desktop.
+- Laptop.
+- Tablet.
+- Mobile.
+- Small mobile screens around 360px–390px.
+
+### Desktop
+
+- Large editorial typography.
+- Immersive full-width sections.
+- Asymmetrical image compositions.
+- Advanced motion effects.
+
+### Tablet
+
+- Adjust grid structures.
+- Maintain spacing.
+- Scale typography appropriately.
+- Simplify complex animations where necessary.
+
+### Mobile
+
+- Single-column layouts where appropriate.
+- Proper image cropping.
+- Responsive navigation.
+- Touch-friendly buttons.
+- Readable typography.
+- No horizontal scrolling.
+- No overlapping elements.
+- Simplified pinned sections.
+- Reduced parallax and expensive animations.
+
+Do not simply shrink the desktop design.
+
+Create a properly considered mobile experience.
+
+---
+
+# 15. TECHNICAL DEVELOPMENT REQUIREMENTS
+
+Build using:
+
+- React.
+- Vite.
+- TypeScript.
+- React Router.
+- GSAP.
+- GSAP ScrollTrigger.
+- Lenis.
+
+Use modern, maintainable React practices.
+
+### Project structure
+
+Use a clean architecture similar to:
+
+src/
+  assets/
+  components/
+    common/
+    navigation/
+    sections/
+    animations/
+    forms/
+  layouts/
+  pages/
+  data/
+  hooks/
+  styles/
+  utils/
+
+Use reusable components.
+
+Separate page content from presentation.
+
+Keep product data, project data, and client information organised in separate data files.
+
+### Code quality
+
+- Use TypeScript properly.
+- Avoid unnecessary any types.
+- Avoid duplicate components.
+- Avoid unnecessary dependencies.
+- Keep CSS organised.
+- Use reusable animation utilities.
+- Clean up event listeners.
+- Clean up GSAP timelines and ScrollTriggers.
+- Prevent memory leaks.
+- Avoid unnecessary React re-renders.
+- Ensure all routes work correctly.
+
+### Performance
+
+- Optimise images.
+- Lazy-load images.
+- Avoid unnecessarily large JavaScript bundles.
+- Use code splitting where appropriate.
+- Avoid expensive animation calculations.
+- Use transform and opacity for animations.
+- Keep mobile performance smooth.
+- Avoid layout shifts.
+- Respect reduced-motion preferences.
+
+### Accessibility
+
+- Semantic HTML.
+- Proper heading hierarchy.
+- Accessible navigation.
+- Keyboard-friendly interactions.
+- Visible focus states.
+- Accessible form labels.
+- Appropriate image alt text.
+- Reduced-motion support.
+
+---
+
+# 16. SEO REQUIREMENTS
+
+Implement basic technical SEO.
+
+Include:
+
+- Unique page titles.
+- Meta descriptions.
+- Proper heading hierarchy.
+- Canonical URLs where appropriate.
+- Open Graph metadata.
+- Descriptive image alt text.
+- Sitemap-ready routing.
+- Robots.txt.
+- Favicon using the supplied AMBILUX logo.
+
+Do not add unsupported company claims or fabricated structured data.
+
+---
+
+# 17. FINAL DESIGN QUALITY CONTROL
+
+Before considering the project complete, review every page.
+
+### Visual checks
+
+- Does the homepage feel premium?
+- Does the hero look cinematic?
+- Are headings properly aligned?
+- Are images correctly cropped?
+- Is whitespace consistent?
+- Are colours consistent with AMBILUX?
+- Does each section have a distinct layout?
+- Does the website avoid generic AI-template styling?
+
+### Functional checks
+
+- Does every navigation link work?
+- Do all routes work after refresh?
+- Does product filtering work?
+- Are all products correctly categorised?
+- Are project detail pages working?
+- Does the contact form actually submit?
+- Are there any broken images?
+- Are there any console errors?
+- Are there any horizontal scrolling issues?
+
+### Animation checks
+
+- Are character reveals smooth?
+- Are image masks working?
+- Is ScrollTrigger synchronised correctly with Lenis?
+- Are animations smooth on mobile?
+- Are reduced-motion preferences respected?
+- Are pinned sections functioning correctly?
+- Are animations cleaned up on route changes?
+
+---
+
+# 18. FINAL CREATIVE DIRECTION
+
+The final AMBILUX website should feel like a premium international architectural lighting company.
+
+The experience should combine:
+
+- Melli's editorial visual storytelling.
+- Glaze's sophisticated motion design.
+- Halden's advanced scroll-driven animation techniques.
+- AMBILUX's own architectural lighting brand identity.
+
+Prioritise:
+
+1. Original visual identity.
+2. Cinematic architectural photography.
+3. Premium editorial typography.
+4. Beautiful whitespace.
+5. Sophisticated image compositions.
+6. Advanced heading animations.
+7. Immersive scroll interactions.
+8. Elegant navigation.
+9. Consistent branding.
+10. Excellent desktop and mobile experiences.
+
+The website must not look like a generic corporate template, an ecommerce store, or an AI-generated landing page.
+
+It must look professionally designed and carefully art-directed.
+
+---
+
+# 19. CRITICAL INSTRUCTIONS – FOLLOW STRICTLY
+
+1. Build the entire website from scratch.
+2. Do not use the existing AMBILUX website as a reference or starting point.
+3. Do not copy any existing website layout.
+4. Use the supplied AMBILUX logo and catalogue as factual references.
+5. Do not invent company information.
+6. Do not invent products, product codes, clients, projects, awards, or certifications.
+7. All products must appear on one Products page.
+8. Product filtering must work without navigation.
+9. Do not create product detail pages.
+10. Do not display product technical specifications.
+11. Do not add ecommerce functionality.
+12. Individual project detail pages are required for verified projects.
+13. Use real and relevant architectural lighting photography.
+14. Do not repeat images unnecessarily.
+15. Use GSAP, ScrollTrigger, and Lenis for sophisticated animations.
+16. Keep animations smooth, refined, and responsive.
+17. Ensure the contact form functionality actually works.
+18. Ensure all routes work correctly.
+19. Keep the code clean, reusable, and maintainable.
+20. Do not remove existing requirements to simplify development.
+
+**MOST IMPORTANT: DO NOT COMPROMISE THE VISUAL QUALITY.**
+
+Do not generate a basic website first and consider it finished.
+
+Build every page with proper attention to visual hierarchy, image composition, typography, spacing, transitions, and interactions.
+
+Deliver a complete, production-ready React + Vite + TypeScript website, not just a homepage mockup.
+
+Before finishing, verify that the entire website builds successfully using npm run build and fix all build errors.
+
+The final output must be a complete working project with all required pages, components, assets, styling, animations, and functionality.
